@@ -1,0 +1,24 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #f0f0f0;
+}
+
+.social-links svg {
+  margin-right: 8px;
+}
