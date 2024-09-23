@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-content .title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.image-content .image {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+
+.section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.text-content .title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  padding-bottom: 20px;
+  width:500px;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.lost-pet:hover {
+  background-color: #b81708;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.found-pet:hover {
+  background-color: #39883c;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.lost-pet {
+  background-color: #fd3838;
+  color: white;
+}
+
+.found-pet {
+  background-color: #4caf50;
+  color: white;
+}
+
+.image-content .image {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+
+.lost-pets-list,
+.found-pets-list {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.lost-pets-list h2,
+.found-pets-list h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.lost-pets-list ul,
+.found-pets-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lost-pets-list li,
+.found-pets-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.lost-pets-list li:last-child,
+.found-pets-list li:last-child {
+  border-bottom: none;
+}
+
+.lost-pets-list strong,
+.found-pets-list strong {
+  color: #4caf50;
+}
+
+.lost-pets-list p,
+.found-pets-list p {
+  margin: 5px 0;
+  color: #555;
+}
